@@ -1,0 +1,237 @@
+@media (max-width:910px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 18px;
+
+            }
+            .text {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media (max-width:760px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 16px;
+
+            }
+            .text {
+                font-size: 16px;
+
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 32px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 24px;
+                    margin-top: 4px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:650px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 13px;
+
+            }
+            .text {
+                font-size: 13px;
+
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 30px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 24px;
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:540px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 11px;
+                left: 14px;
+
+            }
+            .text {
+                font-size: 11px;
+                left: 14px;
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 28px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 24px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:475px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 10px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+            }
+            .text {
+                font-size: 10px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 24px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 24px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:445px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 9px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+            }
+            .text {
+                font-size: 8px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 20px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 18px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    footer{
+        font-size: 17px !important;
+    }
+}
+@media (max-width:375px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 8px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+            }
+            .text {
+                font-size: 8px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 20px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 18px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:360px) {
+    .sect {
+        &__img {
+
+            h2 {
+                font-size: 7px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+            }
+            .text {
+                font-size: 6.5px;
+                font-weight: 600;
+                left: 9px;
+                bottom: 12px;
+
+            }
+        }
+    }
+    .texts{
+        .question{
+            font-size: 20px;
+        }
+        .answer{
+            ul{
+                li{
+                    margin-left: 18px;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
