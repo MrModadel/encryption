@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/public/icons/img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    .arrow_down {
+        background-image: url("/public/icons/chevronthindown.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 100%;
+        height: 18px;
+    }
+}
+.texts {
+    background-color: #e6dcdc;
+    padding: 20px 12px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 5px #e6dcdc;
+    border-bottom: 0.5px solid #d1caca;
+    border-right: 0.5px solid #d1caca;
+    transition: all 250ms;
+    &:hover {
+        box-shadow: 5px 5px 3px #e6dcdc;
+        transition: all 250ms;
+        transform: translate(2px, 2px);
+    }
+    &:not(:first-child) {
+        margin-top: 40px;
+    }
+    .question {
+        font-size: 38px;
+        color: #696767;
+        font-weight: 700;
+        margin-left: 20px;
+    }
+    .answer {
+        margin-top: 24px;
+        margin-left: 26px;
+        h2 {
+            color: white;
+        }
+        ul {
+            li {
+                margin-left: 30px;
+                margin-top: 8px;
+
+            }
+        }
+    }
+}
+
+.sect {
+    margin-top: 10px;
+    width: 100%;
+    &__img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        h2 {
+            position: absolute;
+            bottom: 20px;
+            left: 18px;
+            color: #fff;
+        }
+        .text {
+            position: absolute;
+            bottom: 20px;
+            left: 18px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}
+.hr-title {
+    margin: 30px 20px;
+    color: #696767;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    text-align: center;
+    font-size: 24px;
+}

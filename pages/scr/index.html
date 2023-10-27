@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security system</title>
+    <link rel="stylesheet" href="index.scss">
+</head>
+
+<body>
+    <div class="pass">
+        <h1>pa<span>ss</span>word</h1>
+        <form action="#" name="scr">
+            <input type="password">
+            <button>Enter</button>
+        </form>
+    </div>
+
+</body>
+<script>
+    let form = document.forms.scr;
+    form.onsubmit = e => {
+        e.preventDefault();
+        let input = form.querySelector('input');
+        if (+input.value === 112358) {
+            location.assign('/?pass=kioplao1090')
+        } else {
+            alert('Вы ввели не правильный пороль!)')
+        }
+    }
+
+</script>
+
+</html>
