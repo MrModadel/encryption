@@ -44,9 +44,9 @@ header {
     border-right: 0.5px solid #d1caca;
     transition: all 250ms;
     &:hover {
-        box-shadow: 5px 5px 3px #e6dcdc;
+        box-shadow: 3px 3px 1px #e6dcdc;
         transition: all 250ms;
-        transform: translate(2px, 2px);
+        transform: translate(4px, 4px);
     }
     &:not(:first-child) {
         margin-top: 40px;
